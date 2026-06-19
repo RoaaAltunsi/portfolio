@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0a0a;
+  --color-paper: #f7f5f0;
+  --color-paper-dark: #edeae4;
+  --color-mid: #888;
+  --color-light: #d8d5ce;
+  --font-serif: 'EB Garamond', Georgia, serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  @apply overflow-x-hidden bg-paper font-serif text-ink antialiased;
+}
+
+::selection {
+  @apply bg-ink text-paper;
+}
+
+button {
+  @apply cursor-pointer;
+}
