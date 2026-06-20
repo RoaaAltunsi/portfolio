@@ -1,5 +1,6 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
+import Experience from './components/Experience'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Nav />
       <main>
         <Hero />
+        <Experience />
       </main>
     </>
   )

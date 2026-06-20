@@ -44,7 +44,7 @@ export default function Hero() {
       <div className="z-2 mb-10 w-full max-w-[380px] flex-none pl-[clamp(0px,4vw,44px)] md:mb-0">
         <div className="mb-6 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.48em] max-[760px]:tracking-[0.32em]">
           <span>Hi, I'm</span>
-          <span className="inline-flex min-w-[18ch] text-gray-500 items-center normal-case">
+          <span className="inline-flex min-w-[18ch] text-mid items-center normal-case">
             {typedText}
             <span className="ml-1 h-4 w-px animate-pulse bg-current" aria-hidden="true" />
           </span>
@@ -60,9 +60,9 @@ export default function Hero() {
           Software Engineer
         </p>
 
-        <span className="my-7 block h-px w-[18px] bg-gray-500" />
+        <span className="my-7 block h-px w-[18px] bg-mid" />
 
-        <p className="text-sm leading-[1.85] text-gray-500">
+        <p className="text-sm leading-[1.85] text-mid tracking-widest">
           I build elegant, scalable and impactful software solutions with a focus on clean code and thoughtful design.
         </p>
 
