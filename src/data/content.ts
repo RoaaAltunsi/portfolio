@@ -13,18 +13,21 @@ export const experiences = [
     period: '2025 - Present',
     company: 'Spiders',
     summary: 'Building an agentic SaaS system with Next.js and TypeScript, leveraging Convex DB and LangGraph to build tool-augmented LLM agents, secured via Clerk authentication and integrated with third-party API integrations (e.g., Notion, Jira, etc.).',
+    tools: ['Next.js', 'TypeScript', 'Convex DB', 'LangGraph', 'Clerk', 'API Integrations'],
   },
   {
     role: 'Software Developer',
     period: '2024',
     company: 'AVA',
     summary: 'Implementing full-stack modifications on a mobile-friendly PHP Laravel website.',
+    tools: ['PHP', 'Laravel', 'MySQL', 'JavaScript'],
   },
   {
     role: 'Web Developer (internship)',
     period: '2023',
     company: 'WOW Digital Information Technology',
     summary: 'Worked with the Frappe framework to implement frontend-backend integration for a website using Python, JavaScript, Postman, and Jinja.',
+    tools: ['Python', 'JavaScript', 'Postman', 'Jinja', 'Frappe'],
   },
 ]
 

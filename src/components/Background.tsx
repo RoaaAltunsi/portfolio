@@ -40,7 +40,7 @@ function BackgroundLinework() {
 // ------------------------------ Education Card ------------------------------
 function EducationCard() {
   return (
-    <article className="absolute right-[6.4%] top-[54%] z-4 w-[300px] rotate-[6deg] rounded-2xl border border-light bg-white px-9 pt-11 pb-7 shadow-[0_24px_54px_rgba(0,0,0,0.10)] max-[1180px]:static max-[1180px]:w-full max-[1180px]:rotate-0">
+    <article className="absolute right-[6.4%] top-[54%] z-4 w-[300px] rotate-6 rounded-2xl border border-light bg-white px-9 pt-11 pb-7 shadow-[0_24px_54px_rgba(0,0,0,0.10)] max-[1180px]:static max-[1180px]:w-full max-[1180px]:rotate-0">
       <IconBadge>
         <GraduationCap size={24} strokeWidth={1.45} />
       </IconBadge>
