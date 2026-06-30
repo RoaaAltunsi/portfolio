@@ -4,7 +4,7 @@ import type { Project } from '../lib/types'
 export const nav = ['Experience', 'Skills', 'Projects', 'Background']
 
 // ========================== Hero ==========================
-export const typedValues = ['a Software Engineer', 'a React Developer', 'a Frontend Developer', 'an Agentic AI Eng', 'a Backend Developer']
+export const typedValues = ['a Software Engineer', 'a React Developer', 'a Full Stack Dev.', 'an Agentic AI Eng.']
 
 // ========================== Experience ==========================
 export const experiences = [
