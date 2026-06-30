@@ -197,7 +197,7 @@ export default function Experience() {
         />
 
         <motion.p
-          className="max-w-[390px] text-[18px] leading-[1.75] tracking-wider text-mid max-[760px]:text-[15px]"
+          className="max-w-[390px] text-[15px] leading-[1.8] tracking-widest text-mid max-[760px]:text-[15px]"
           variants={fadeUp}
           transition={t(0.75, 0.25)}
         >
