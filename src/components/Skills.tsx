@@ -53,7 +53,6 @@ function ConnectionLines() {
 
       <path className="fill-none stroke-current stroke-[1.1]" d="M555 184 C618 103 707 70 799 75" />
       <path className="fill-none stroke-current stroke-[1.1]" d="M566 270 C630 214 711 222 793 286" />
-      <path className="fill-none stroke-current stroke-[1.1]" d="M576 421 C642 457 724 438 843 438" />
       <path className="fill-none stroke-current stroke-[1.1] stroke-dasharray-[2_5]" d="M557 490 C651 557 742 520 904 500" />
       <path className="fill-none stroke-current stroke-[1.1]" d="M526 523 C551 606 625 635 704 568" />
       <path className="fill-none stroke-current stroke-[1.1]" d="M540 560 C625 650 762 648 865 596" />
@@ -67,7 +66,7 @@ function ConnectionLines() {
 // ------------------------- Filter Bar -------------------------
 function FilterBar({ activeFilter, onFilterChange }: { activeFilter: string; onFilterChange: (filter: string) => void }) {
   return (
-    <div className="absolute bottom-8 left-1/2 z-3 flex -translate-x-1/2 items-center gap-5 rounded-full border border-light bg-paper/90 px-2 py-1 text-xs shadow-[0_14px_35px_rgba(0,0,0,0.08)] backdrop-blur max-[1050px]:static max-[1050px]:mt-10 max-[1050px]:translate-x-0 max-[1050px]:flex-wrap max-[1050px]:justify-center max-[760px]:rounded-2xl">
+    <div className="absolute bottom-8 left-1/2 z-3 flex -translate-x-1/2 items-center gap-5 rounded-full border border-light bg-paper/90 px-2 py-1 text-xs backdrop-blur max-[1050px]:static max-[1050px]:mt-10 max-[1050px]:translate-x-0 max-[1050px]:flex-wrap max-[1050px]:justify-center max-[760px]:rounded-2xl">
       {skillGroups.map((group) => (
         <button
           className={[

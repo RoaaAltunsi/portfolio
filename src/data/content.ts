@@ -90,7 +90,7 @@ export const skills = [
     name: 'Tailwind CSS',
     category: 'Design',
     shape: 'rounded-[50%]',
-    position: 'left-[4%] top-[47%] h-[104px] w-[158px] rotate-[8deg]',
+    position: 'left-[8%] top-[47%] h-[104px] w-[158px] rotate-[8deg]',
   },
   {
     name: 'Redux.js',

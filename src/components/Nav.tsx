@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { nav } from '../data/content'
+import LogoMark from './LogoMark'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
@@ -32,9 +33,8 @@ export default function Nav() {
         ].join(' ')}
       >
         {/* ---------------------Left Side of the Navbar--------------------- */}
-        <span className="inline-flex items-center font-mono text-xl tracking-wider uppercase leading-none">
-          <span className="relative -top-0.5 z-10">R</span>
-          <span className="relative top-0.5 -ml-0.5">A</span>
+        <span aria-label="Roaa Altunsi">
+          <LogoMark className="text-[34px]" />
         </span>
 
         {/* ---------------------Right Side of the Navbar--------------------- */}
